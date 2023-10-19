@@ -25,7 +25,8 @@ SECRET_KEY = 'icx7rlw4_!h-277wiei8v=*)tt6$in5#&&^%&h%p91zl7!ff#f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# TODO: remove asterisk as its a security vulnerability
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
